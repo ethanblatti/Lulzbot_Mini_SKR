@@ -835,7 +835,7 @@
  * The probe replaces the Z-MIN endstop and is used for Z homing.
  * (Automatically enables USE_PROBE_FOR_Z_HOMING.)
  */
-#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
+//#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
 
 // Force the use of the probe for Z-axis homing
 //#define USE_PROBE_FOR_Z_HOMING
@@ -1277,10 +1277,10 @@
   // Set the number of grid points per dimension.
   #define GRID_MAX_POINTS_X 2
   #define GRID_MAX_POINTS_Y 2
-  #define LEFT_PROBE_BED_POSITION -3
-  #define RIGHT_PROBE_BED_POSITION 161
-  #define FRONT_PROBE_BED_POSITION -14
-  #define BACK_PROBE_BED_POSITION 182
+  //#define LEFT_PROBE_BED_POSITION -3
+  //#define RIGHT_PROBE_BED_POSITION 161
+  //#define FRONT_PROBE_BED_POSITION -14
+  //#define BACK_PROBE_BED_POSITION 182
   // Probe along the Y axis, advancing X after each column
   #define PROBE_Y_FIRST
 
